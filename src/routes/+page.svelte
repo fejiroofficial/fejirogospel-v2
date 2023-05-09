@@ -1,6 +1,6 @@
-<h1 class="text-3xl font-sans font-bold underline mb-5">Hello Fejiro!</h1>
-<h1 class="text-3xl font-poppins font-bold underline mb-5">Hello Fejiro!</h1>
-<h1 class="text-3xl font-sans font-bold underline mb-5">Hello Fejiro!</h1>
+<section class="container mx-auto">
+	<p>I am home page</p>
+</section>
 
 <style lang="postcss">
 	:global(html) {
