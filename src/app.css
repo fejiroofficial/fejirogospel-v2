@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-/* html body {
-  font-family: 'Noto Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-} */
+html, body {
+  height: 100%;
+}
