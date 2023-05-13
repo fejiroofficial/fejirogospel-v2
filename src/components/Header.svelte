@@ -1,16 +1,24 @@
 <script>
 	import Nav from './Nav.svelte';
 	import BurgerMenu from './BurgerMenu.svelte';
+	import MobileNav from './MobileNav.svelte';
+
+	let showMobileNav = false;
 </script>
 
-<header class="header container mx-auto">
-	<a class="logo" href="/">Fejiro Gospel</a>
-	<Nav />
-	<BurgerMenu />
+<header class="header">
+	<div class="header-pane">
+		<a class="logo" href="/">Fejiro Gospel</a>
+		<Nav />
+		<BurgerMenu bind:showMobileNav />
+	</div>
+	{#if showMobileNav}
+		<MobileNav />
+	{/if}
 </header>
 
 <style lang="postcss">
-	.header {
+	.header-pane {
 		@apply h-[100px] container mx-auto flex justify-between items-center;
 	}
 	.logo {

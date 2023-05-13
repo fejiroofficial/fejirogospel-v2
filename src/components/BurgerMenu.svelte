@@ -4,7 +4,7 @@
 	import burgerMenuIcon from '$lib/assets/burger-menu.svg';
 	import closeIcon from '$lib/assets/close.svg';
 
-	let showMobileNav = false;
+	export let showMobileNav = false;
 
 	function handleShowNav() {
 		showMobileNav = !showMobileNav;
