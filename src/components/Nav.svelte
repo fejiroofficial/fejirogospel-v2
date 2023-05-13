@@ -42,7 +42,7 @@
 
 <style lang="postcss">
 	.nav {
-		@apply flex gap-7;
+		@apply hidden flex gap-7 lg:flex;
 	}
 	.nav-items {
 		@apply flex gap-7 font-poppins font-light text-2xl leading-[36px];

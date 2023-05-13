@@ -6,6 +6,17 @@ export default {
       fontFamily: {
         'sans': ['Noto Sans', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
+      },
+      screen: {
+        sm: '640px',
+        md: '768px',
+        lg: '992px',
+        xl: '1200px'
+      },
+      container: {
+        padding: {
+          DEFAULT: '2rem'
+        }
       }
     },
   },
