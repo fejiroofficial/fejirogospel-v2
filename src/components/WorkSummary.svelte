@@ -38,7 +38,7 @@
 
 <style lang="postcss">
 	.section {
-		@apply container mx-auto grid mt-9;
+		@apply container mx-auto grid mt-20;
 	}
 	.section-head {
 		@apply flex justify-between items-center mb-9 md:mb-20;

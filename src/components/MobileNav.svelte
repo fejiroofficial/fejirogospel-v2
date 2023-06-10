@@ -27,7 +27,7 @@
 
 <style lang="postcss">
 	.mobile-tray {
-		@apply w-full bg-white fixed flex items-center justify-center;
+		@apply w-full bg-white fixed z-10 flex items-center justify-center;
 		height: calc(100% - 100px);
 	}
 	.nav-items {
