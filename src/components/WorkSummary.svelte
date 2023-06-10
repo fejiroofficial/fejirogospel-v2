@@ -29,7 +29,7 @@
 <section class="section">
 	<div class="section-head">
 		<h2>Experience</h2>
-		<p>Download Resume</p>
+		<p>Resume</p>
 	</div>
 	{#each workHistory as history}
 		<WorkSummaryItem {...history} />
@@ -41,12 +41,12 @@
 		@apply container mx-auto grid mt-9;
 	}
 	.section-head {
-		@apply flex justify-between items-center mb-20;
+		@apply flex justify-between items-center mb-9 md:mb-20;
 	}
 	.section-head h2 {
-		@apply text-4xl font-medium leading-[49px];
+		@apply text-2xl font-medium leading-[49px] md:text-4xl;
 	}
 	.section-head p {
-		@apply text-xl leading-[33px] cursor-pointer;
+		@apply text-lg leading-[33px] cursor-pointer md:text-xl;
 	}
 </style>
