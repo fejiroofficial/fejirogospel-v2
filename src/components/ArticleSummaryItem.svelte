@@ -18,10 +18,10 @@
 
 <style lang="postcss">
 	.summary {
-		@apply relative pl-6 pt-9;
+		@apply relative pl-7 pt-9;
 	}
 	.numeral {
-		@apply text-[32px] text-slate-400 absolute top-0 left-0;
+		@apply text-[38px] text-slate-300 font-extrabold absolute top-0 left-0;
 	}
 	.summary h4 {
 		@apply text-lg md:text-2xl font-semibold;
