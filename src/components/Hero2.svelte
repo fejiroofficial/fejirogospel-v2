@@ -6,7 +6,7 @@
 	<div class="web-intro">
 		<h1>I am <br class="block md:hidden" /> Fejiro <br class="hidden md:block" /> Gospel</h1>
 	</div>
-	<p>Lead front-end developer based in the united kingdom</p>
+	<p>Lead front-end developer based in the United Kingdom</p>
 </section>
 <hr />
 

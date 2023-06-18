@@ -3,7 +3,6 @@
 	import linkedin from '$lib/assets/linkedin.svg';
 	import twitter from '$lib/assets/twitter.svg';
 
-
 	const NAV_ITEMS = [
 		{
 			name: 'Blog',
@@ -11,7 +10,7 @@
 		},
 		{
 			name: 'Contact',
-			href: '/'
+			href: '/about'
 		},
 		{
 			name: 'Resume',
@@ -22,8 +21,10 @@
 
 <nav class="nav">
 	<ul class="nav-items">
-		{#each NAV_ITEMS as { name }}
-			<li>{name}</li>
+		{#each NAV_ITEMS as { name, href }}
+			<li>
+				<a {href}>{name}</a>
+			</li>
 		{/each}
 	</ul>
 	<div class="nav-socials">
@@ -45,7 +46,7 @@
 		@apply hidden flex gap-7 lg:flex;
 	}
 	.nav-items {
-		@apply flex gap-7 font-poppins font-light text-2xl leading-[36px];
+		@apply flex gap-7 font-poppins font-light text-2xl leading-[36px] cursor-pointer;
 	}
 	.nav-socials {
 		@apply flex items-center gap-4;
