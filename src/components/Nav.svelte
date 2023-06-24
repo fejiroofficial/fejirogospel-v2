@@ -14,7 +14,7 @@
 		},
 		{
 			name: 'Resume',
-			href: '/'
+			href: '/resume.pdf'
 		}
 	];
 </script>
@@ -28,10 +28,10 @@
 		{/each}
 	</ul>
 	<div class="nav-socials">
-		<a href="https://twitter.com/fejiroofficial" target="_blank" rel="noopener noreferrer">
+		<a href="https://github.com/fejiroofficial" target="_blank" rel="noopener noreferrer">
 			<img src={github} alt="a link to fejiro's github" />
 		</a>
-		<a href="https://twitter.com/fejiroofficial" target="_blank" rel="noopener noreferrer"
+		<a href="https://www.linkedin.com/in/fejiroofficial/" target="_blank" rel="noopener noreferrer"
 			><img src={linkedin} alt="a link to fejiro's linkedin" />
 		</a>
 
@@ -46,7 +46,10 @@
 		@apply hidden flex gap-7 lg:flex;
 	}
 	.nav-items {
-		@apply flex gap-7 font-poppins font-light text-2xl leading-[36px] cursor-pointer;
+		@apply flex gap-7 font-poppins font-light text-2xl leading-[36px];
+	}
+	.nav-items li {
+		@apply cursor-pointer;
 	}
 	.nav-socials {
 		@apply flex items-center gap-4;

@@ -29,7 +29,7 @@
 <section class="section">
 	<div class="section-head">
 		<h2>Experience</h2>
-		<p>Resume</p>
+		<a href="/resume.pdf">Resume</a>
 	</div>
 	{#each workHistory as history}
 		<WorkSummaryItem {...history} />
@@ -46,7 +46,7 @@
 	.section-head h2 {
 		@apply text-2xl font-medium leading-[49px] md:text-4xl;
 	}
-	.section-head p {
+	.section-head a {
 		@apply text-lg leading-[33px] cursor-pointer md:text-xl;
 	}
 </style>

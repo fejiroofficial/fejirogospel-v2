@@ -8,19 +8,21 @@
 		},
 		{
 			name: 'Contact',
-			href: '/'
+			href: '/about'
 		},
 		{
 			name: 'Resume',
-			href: '/'
+			href: '/resume.pdf'
 		}
 	];
 </script>
 
 <div class="mobile-tray" in:fly>
 	<ul class="nav-items">
-		{#each NAV_ITEMS as { name }}
-			<li>{name}</li>
+		{#each NAV_ITEMS as { name, href }}
+			<li>
+				<a {href}>{name}</a>
+			</li>
 		{/each}
 	</ul>
 </div>
