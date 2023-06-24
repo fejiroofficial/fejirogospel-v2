@@ -6,6 +6,7 @@ export default {
       fontFamily: {
         'sans': ['Noto Sans', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
+        'satisfy': ['Satisfy', 'sans-serif']
       },
       screen: {
         sm: '640px',
