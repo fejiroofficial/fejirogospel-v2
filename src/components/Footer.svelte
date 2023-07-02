@@ -4,10 +4,10 @@
 	import twitter from '$lib/assets/twitter.svg';
 
 	const NAV_ITEMS = [
-		{
-			name: 'Blog',
-			href: '/'
-		},
+		// {
+		// 	name: 'Blog',
+		// 	href: '/'
+		// },
 		{
 			name: 'Contact',
 			href: '/about'

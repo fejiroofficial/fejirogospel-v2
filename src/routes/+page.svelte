@@ -6,6 +6,6 @@
 </script>
 
 <Hero />
-<ArticleSummary />
+<!-- <ArticleSummary /> -->
 <WorkSummary />
 <PortfolioSummary />
