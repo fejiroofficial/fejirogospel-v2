@@ -3,10 +3,10 @@
 	import { createEventDispatcher } from 'svelte';
 
 	const NAV_ITEMS = [
-		// {
-		// 	name: 'Blog',
-		// 	href: '/'
-		// },
+		{
+			name: 'Home',
+			href: '/'
+		},
 		{
 			name: 'Contact',
 			href: '/about'
