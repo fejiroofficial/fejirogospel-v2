@@ -13,7 +13,7 @@
 		<BurgerMenu bind:showMobileNav />
 	</div>
 	{#if showMobileNav}
-		<MobileNav />
+		<MobileNav on:close={() => (showMobileNav = false)} />
 	{/if}
 </header>
 

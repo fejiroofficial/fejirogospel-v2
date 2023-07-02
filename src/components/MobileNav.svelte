@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { fly } from 'svelte/transition';
+	import { createEventDispatcher } from 'svelte';
 
 	const NAV_ITEMS = [
 		{
@@ -15,13 +16,19 @@
 			href: '/resume.pdf'
 		}
 	];
+
+	const dispatch = createEventDispatcher();
+
+	function forward() {
+    dispatch('close');
+  }
 </script>
 
 <div class="mobile-tray" in:fly>
 	<ul class="nav-items">
 		{#each NAV_ITEMS as { name, href }}
 			<li>
-				<a {href}>{name}</a>
+				<a {href} on:click={forward}>{name}</a>
 			</li>
 		{/each}
 	</ul>
