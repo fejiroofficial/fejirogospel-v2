@@ -44,12 +44,12 @@
 
 <style lang="postcss">
 	.about {
-		@apply container mx-auto py-20 font-poppins;
+		@apply container mx-auto py-20;
 	}
 	.about h1 {
-		@apply text-2xl mb-9;
+		@apply text-2xl mb-9 font-poppins;
 	}
 	.about p {
-		@apply text-lg mb-7 font-light md:text-2xl md:mb-9;
+		@apply text-lg mb-7 md:text-2xl md:mb-9;
 	}
 </style>
