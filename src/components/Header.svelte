@@ -38,6 +38,6 @@
 		transform: translateY(0);
 	}
 	.logo-wrapper:hover {
-		translate: 0px -45px;
+		@apply lg:translate-y-[-45px];
 	}
 </style>
