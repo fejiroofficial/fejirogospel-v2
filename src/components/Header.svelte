@@ -22,6 +22,6 @@
 		@apply h-[100px] container mx-auto flex justify-between items-center;
 	}
 	.logo {
-		@apply text-[26px] lg:text-[32px] leading-[44px] font-medium;
+		@apply text-[26px] lg:text-[32px] leading-[44px] font-poppins font-light;
 	}
 </style>
