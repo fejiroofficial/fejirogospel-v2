@@ -8,7 +8,12 @@
 
 <header class="header">
 	<div class="header-pane">
-		<a class="logo" href="/">Fejiro Gospel</a>
+		<a class="logo-groupings" href="/">
+			<div class="logo-wrapper">
+				<div class="logo">Fejiro Gospel</div>
+				<div class="logo">Fejiro Gospel</div>
+			</div>
+		</a>
 		<Nav />
 		<BurgerMenu bind:showMobileNav />
 	</div>
@@ -23,5 +28,16 @@
 	}
 	.logo {
 		@apply text-[26px] lg:text-[32px] leading-[44px] font-poppins font-light;
+	}
+	.logo-groupings {
+		@apply h-[43px] overflow-hidden;
+	}
+	.logo-wrapper {
+		@apply flex flex-col;
+		transition: 0.3s ease-in-out;
+		transform: translateY(0);
+	}
+	.logo-wrapper:hover {
+		translate: 0px -45px;
 	}
 </style>
