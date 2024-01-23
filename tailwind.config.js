@@ -3,9 +3,13 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {
     extend: {
+      colors: {
+        'white': '#f5f5f5'
+      },
       fontFamily: {
         'sans': ['Noto Sans', 'sans-serif'],
         'poppins': ['Poppins', 'sans-serif'],
+        'inter': ['Inter', 'sans-serif'],
         'satisfy': ['Satisfy', 'sans-serif']
       },
       screen: {
