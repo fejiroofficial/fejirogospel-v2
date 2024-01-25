@@ -1,19 +1,27 @@
 <script>
-	export let variation = 'primary';
+	export let variant = 'primary';
 
 	export let size = 'regular';
 
+	export let width = 'block';
+
+	const widthVariant = {
+		block: 'flex-none',
+		fill: 'flex-auto'
+	}
+
 	const colorVariants = {
-		primary: 'bg-blue-600 hover:bg-blue-500',
+		primary: 'bg-blue hover:bg-blue-500',
 		secondary: 'border border-solid border-white'
 	};
 
 	const sizeVariants = {
-		regular: 'px-[20px] py-[12px] text-xs'
+		regular: 'px-[20px] py-[12px] text-xs',
+		medium: 'px-[24px] py-[16px] text-sm'
 	};
 </script>
 
-<button class={`btn ${colorVariants[variation]} ${sizeVariants[size]}`}>
+<button class={`btn ${colorVariants[variant]} ${sizeVariants[size]} ${widthVariant[width]}`}>
 	<slot>Button</slot>
 </button>
 

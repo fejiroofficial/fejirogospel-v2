@@ -1,1 +1,5 @@
-<!-- <div>A new page right here</div> -->
+<script>
+	import Hero from '@components/Hero.svelte';
+</script>
+
+<Hero />

@@ -1,10 +1,5 @@
 <script>
   import Button from '@components/v2/Button.svelte';
-	// import Nav from './Nav.svelte';
-	// import BurgerMenu from './BurgerMenu.svelte';
-	// import MobileNav from './MobileNav.svelte';
-
-	let showMobileNav = false;
 </script>
 
 <header class="header">
@@ -17,7 +12,7 @@
       <a href="Home">Profile</a>
       <a href="Home">Coaching</a>
     </nav>
-    <Button variation="secondary">Book Your Session</Button>
+    <Button variant="secondary">Book Your Session</Button>
 	</div>
 </header>
 
@@ -29,9 +24,9 @@
 		@apply h-[64px] container mx-auto flex justify-between items-center;
 	}
 	.logo {
-		@apply text-[26px] lg:text-sm leading-[21px] font-inter font-semibold;
+		@apply text-sm leading-[21px] font-inter font-semibold;
 	}
   .nav {
-    @apply flex gap-4 text-xs font-semibold;
+    @apply hidden flex gap-4 text-xs font-semibold md:flex;
   }
 </style>

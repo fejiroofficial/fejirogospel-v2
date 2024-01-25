@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        'white': '#f5f5f5'
+        'white': '#f5f5f5',
+        'blue': '#1400ff'
       },
       fontFamily: {
         'sans': ['Noto Sans', 'sans-serif'],
