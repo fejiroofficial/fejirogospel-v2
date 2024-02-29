@@ -4,6 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'pure-white': '#ffffff',
         'white': '#f5f5f5',
         'blue': '#1400ff'
       },
