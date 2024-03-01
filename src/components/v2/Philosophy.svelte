@@ -5,7 +5,7 @@
 <section class="bg-pure-white pt-0 py-20">
   <div class="container mx-auto grid grid-cols-12 gap-6">
     <img class="col-span-12 mb-6 lg:col-span-6 lg:mb-0" src={displayImage} alt="">
-    <div class="col-span-12 lg:col-span-6 pl-6 flex flex-col justify-center text-center lg:text-left">
+    <div class="col-span-12 lg:col-span-6 flex flex-col justify-center text-center lg:pl-6 lg:text-left">
       <h2 class="text-blue">My Philosophy</h2>
       <p>I believe in empowering clients with the knowledge to maintain and expand their digital presence.</p>
     </div>
