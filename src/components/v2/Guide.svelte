@@ -41,7 +41,7 @@
 		@apply font-semibold font-poppins text-[18px] mb-2 xl:text-[22px];
 	}
 	p {
-		@apply font-inter font-normal text-[18px] leading-[120%] xl:text-[18px];
+		@apply font-inter font-normal text-[18px] leading-[120%];
 	}
 	img {
 		@apply flex self-center;
