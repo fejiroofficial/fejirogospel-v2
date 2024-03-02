@@ -17,7 +17,8 @@
 
 	const sizeVariants = {
 		regular: 'px-[20px] py-[12px] text-xs',
-		medium: 'px-[24px] py-[16px] text-sm'
+		medium: 'px-[24px] py-[16px] text-sm',
+		large: 'px-[40px] py-[16px] text-md'
 	};
 </script>
 

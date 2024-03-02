@@ -34,7 +34,7 @@
 		@apply font-inter font-normal text-[18px] leading-[120%] lg:text-[18px] leading-8;
 	}
 	.card {
-		@apply rounded-2xl p-[24px] bg-[#1F2937] mb-[40px];
+		@apply rounded-3xl p-[24px] bg-[#1F2937] mb-[40px];
 	}
   img {
     height: -webkit-fill-available;
