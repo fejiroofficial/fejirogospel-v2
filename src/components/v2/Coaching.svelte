@@ -8,7 +8,8 @@
 			price: '49.50',
 			perks: ['Weekly Check-ins', 'Project Code Reviews', 'Email Support', 'Access to Resources'],
       cta: 'Start Learning',
-      variant: 'secondary'
+      variant: 'secondary',
+			href: 'https://buy.stripe.com/eVag059VFaxsaNq6oo'
 		},
     {
 			name: 'Advanced',
@@ -17,7 +18,8 @@
 			perks: ['Bi-Weekly Strategy Calls', 'Priority Code Reviews', 'Direct Messaging', 'Portfolio Feature'],
       cta: 'Go Advanced',
       variant: 'primary',
-      tag: 'Popular Choice'
+      tag: 'Popular Choice',
+			href: 'https://buy.stripe.com/8wM15b3xh20W6xa5kl'
 		}
 	];
 </script>

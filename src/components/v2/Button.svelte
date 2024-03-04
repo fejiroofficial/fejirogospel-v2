@@ -5,10 +5,12 @@
 
 	export let width = 'block';
 
+	export let href = '';
+
 	const widthVariant = {
 		block: 'flex-none',
 		fill: 'flex-auto'
-	}
+	};
 
 	const colorVariants = {
 		primary: 'bg-blue hover:bg-blue-500',
@@ -22,9 +24,15 @@
 	};
 </script>
 
-<button class={`btn ${colorVariants[variant]} ${sizeVariants[size]} ${widthVariant[width]}`}>
-	<slot>Button</slot>
-</button>
+{#if href}
+	<a {href} class={`btn text-center ${colorVariants[variant]} ${sizeVariants[size]} ${widthVariant[width]}`} target="_blank">
+		<slot>Link</slot>
+	</a>
+{:else}
+	<button class={`btn ${colorVariants[variant]} ${sizeVariants[size]} ${widthVariant[width]}`}>
+		<slot>Button</slot>
+	</button>
+{/if}
 
 <style lang="postcss">
 	.btn {

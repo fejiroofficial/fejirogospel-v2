@@ -5,7 +5,7 @@
 
 	export let plan;
 
-	const { name, note, price, perks, cta, variant, tag } = plan;
+	const { name, note, price, perks, cta, variant, tag, href } = plan;
 </script>
 
 <div class="relative">
@@ -40,7 +40,7 @@
 		{/each}
 	</div>
 	<div class="flex">
-		<Button {variant} width="fill">{cta}</Button>
+		<Button {variant} {href} width="fill">{cta}</Button>
 	</div>
 </div>
 
