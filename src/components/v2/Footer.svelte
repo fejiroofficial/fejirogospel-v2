@@ -6,7 +6,7 @@
 	<div class="card">
 		<div class="footer-pane">
 			<div>
-				<a href="/v2">
+				<a href="/coaching">
 					<div class="logo">Fejiro Gospel</div>
 				</a>
         <p class="text-lg mt-4">Code, Create, Coach</p>

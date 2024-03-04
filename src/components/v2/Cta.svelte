@@ -8,7 +8,7 @@
 		<h2>Elevate Your Code</h2>
 		<p>Unleash your potential with guided front-end development coaching.</p>
 		<div class="text-white mt-8">
-			<Button size="large">Get Started</Button>
+			<Button size="large" href="#plans">Get Started</Button>
 		</div>
 		
 	</div>

@@ -40,7 +40,7 @@
 		{/each}
 	</div>
 	<div class="flex">
-		<Button {variant} {href} width="fill">{cta}</Button>
+		<Button {variant} {href} width="fill" target="_blank">{cta}</Button>
 	</div>
 </div>
 

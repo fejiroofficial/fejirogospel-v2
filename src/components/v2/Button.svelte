@@ -7,6 +7,8 @@
 
 	export let href = '';
 
+  export let target = '_self';
+
 	const widthVariant = {
 		block: 'flex-none',
 		fill: 'flex-auto'
@@ -25,7 +27,7 @@
 </script>
 
 {#if href}
-	<a {href} class={`btn text-center ${colorVariants[variant]} ${sizeVariants[size]} ${widthVariant[width]}`} target="_blank">
+	<a {href} class={`btn text-center ${colorVariants[variant]} ${sizeVariants[size]} ${widthVariant[width]}`} target={target}>
 		<slot>Link</slot>
 	</a>
 {:else}

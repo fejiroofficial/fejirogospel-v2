@@ -12,8 +12,8 @@
 		<h1>Crafting Digital Experiences</h1>
 		<p>Front-end development with a personal touch.</p>
 		<div class="btn-group flex-col md:flex-row">
-			<Button width="fill" size="medium">View My Work</Button>
-			<Button width="fill" size="medium" variant="secondary">Learn More</Button>
+			<Button width="fill" size="medium" href="#work">View My Work</Button>
+			<Button width="fill" size="medium" variant="secondary" href="#philosophy">Learn More</Button>
 		</div>
 	</div>
 	<div class="media-layout">

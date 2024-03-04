@@ -5,7 +5,7 @@
   import centerLogo from '$lib/assets/center-logo.avif';
 </script>
 
-<section class="bg-white">
+<section id="work" class="bg-white">
 	<div class="container mx-auto py-10 lg:py-20 text-center">
 		<h2 class="font-poppins text-[18px] mb-6 lg:text-[22px]">Worked with:</h2>
 		<div class="flex justify-center gap-8 flex-wrap">

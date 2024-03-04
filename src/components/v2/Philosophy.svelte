@@ -2,7 +2,7 @@
   import displayImage from '$lib/assets/display-image.jpg';
 </script>
 
-<section class="bg-pure-white pt-0 py-20">
+<section id="philosophy" class="bg-pure-white pt-0 py-20">
   <div class="container mx-auto grid grid-cols-12 gap-6">
     <img class="col-span-12 mb-6 lg:col-span-6 lg:mb-0" src={displayImage} alt="">
     <div class="col-span-12 lg:col-span-6 flex flex-col justify-center text-center lg:pl-6 lg:text-left">
