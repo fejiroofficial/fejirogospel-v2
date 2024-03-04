@@ -1,4 +1,5 @@
 <script>
+	import History from './../../../components/v2/History.svelte';
 	import Footer from '@components/v2/Footer.svelte';
 	import Coaching from '@components/v2/Coaching.svelte';
 	import Guide from '@components/v2/Guide.svelte';
@@ -10,6 +11,7 @@
 
 <Hero />
 <Philosophy />
+<History />
 <Guide />
 <Coaching />
 <Mentorship />
