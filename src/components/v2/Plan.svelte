@@ -24,7 +24,7 @@
 			${price.split('.')[0]}<span class="text-[18px] ml-1 align-super">{price.split('.')[1]}</span>
 		</p>
 		<div class="text-[12px]">
-			<p>per session</p>
+			<p>agg session</p>
 			<div class="flex gap-2">
 				<p>monthly plan</p>
 				<img src={switchIcon} alt="" />

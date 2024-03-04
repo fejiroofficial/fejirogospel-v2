@@ -5,7 +5,7 @@
 		{
 			name: 'Starter',
 			note: 'Ideal for hobbyists and new devs',
-			price: '29.00',
+			price: '49.50',
 			perks: ['Weekly Check-ins', 'Project Code Reviews', 'Email Support', 'Access to Resources'],
       cta: 'Start Learning',
       variant: 'secondary'
@@ -13,7 +13,7 @@
     {
 			name: 'Advanced',
 			note: 'For aspiring professionals',
-			price: '49.99',
+			price: '99.99',
 			perks: ['Bi-Weekly Strategy Calls', 'Priority Code Reviews', 'Direct Messaging', 'Portfolio Feature'],
       cta: 'Go Advanced',
       variant: 'primary',
