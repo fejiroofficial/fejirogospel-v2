@@ -3,7 +3,7 @@
 	import Button from './Button.svelte';
 </script>
 
-<section class="container mx-auto py-20">
+<section class="container mx-auto py-10 lg:py-20">
 	<div class="card">
 		<h2>Elevate Your Code</h2>
 		<p>Unleash your potential with guided front-end development coaching.</p>

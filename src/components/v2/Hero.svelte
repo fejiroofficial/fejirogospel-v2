@@ -4,7 +4,7 @@
 	import mobileDevice from '$lib/assets/mobile-device.png';
 </script>
 
-<section class="container mx-auto grid grid-cols-12 pt-0 py-20 lg:pt-20">
+<section class="container mx-auto grid grid-cols-12 pt-10 py-20 lg:pt-20">
 	<div class="web-intro">
 		<div class="mobile-media-layout">
 			<img src={mobileDevice} alt="computer device">

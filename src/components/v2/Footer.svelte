@@ -15,7 +15,7 @@
 		</div>
 		<hr />
 		<div>
-			<p class="text-xs">© 2024 CodeStream</p>
+			<p class="text-xs">© 2024 Fejiro Gospel</p>
 		</div>
 	</div>
 </footer>
@@ -25,7 +25,7 @@
 		@apply p-2 bg-white text-white font-inter flex justify-center;
 	}
 	.card {
-		@apply bg-black rounded-3xl px-[40px] py-[32px] max-w-[1500px] flex-auto;
+		@apply bg-black rounded-3xl px-[40px] py-[32px] flex-auto;
 	}
 	hr {
 		@apply my-8;

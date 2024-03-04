@@ -24,7 +24,7 @@
 	];
 </script>
 
-<section class="container mx-auto py-40 text-white">
+<section class="container mx-auto py-20 lg:py-40 text-white">
 	<div class="text-center mb-12">
 		<h2>Coaching Plans</h2>
 		<p>Choose a plan that fits your learning style and goals.</p>

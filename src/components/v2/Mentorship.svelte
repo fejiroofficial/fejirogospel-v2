@@ -2,7 +2,7 @@
 	import benefitImage from '$lib/assets/benefits.png';
 </script>
 
-<section class="container mx-auto py-20 grid grid-cols-12">
+<section class="container mx-auto py-10 grid grid-cols-12 lg:py-20">
 	<div class="col-span-12 text-center text-white lg:text-left lg:mr-12 lg:col-span-6 xl:mr-32 xl:py-20">
 		<h2>Effective <br /> Mentorship</h2>
 		<div>
