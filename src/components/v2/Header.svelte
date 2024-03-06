@@ -1,5 +1,6 @@
 <script>
   import Button from '@components/v2/Button.svelte';
+  
 </script>
 
 <header class="header">
