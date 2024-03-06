@@ -1,6 +1,9 @@
 <script>
+	import { inject } from '@vercel/analytics'
 	import Header from '@components/v2/Header.svelte';
 	import '../../../app.css';
+
+	inject();
 </script>
 
 <svelte:head>
