@@ -5,15 +5,15 @@
 
 <header class="header">
 	<div class="header-pane">
-		<a href="/coaching">
+		<a href="/">
 			<div class="logo">Fejiro Gospel</div>
 		</a>
     <nav class="nav">
-      <a href="/coaching">Home</a>
-      <a href="#philosophy">Profile</a>
-      <a href="#plans">Coaching</a>
+      <a href="/">Home</a>
+      <a href="/coaching#philosophy">Profile</a>
+      <a href="/coaching#plans">Coaching</a>
     </nav>
-    <Button variant="secondary" href="#plans">Book Your Session</Button>
+    <Button variant="secondary" href="/coaching#plans">Book Your Session</Button>
 	</div>
 </header>
 
