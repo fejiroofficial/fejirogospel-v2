@@ -1,12 +1,19 @@
 <script>
-	import '../app.css';
-  import FormData from './form';
-
-
+	import History from '../components/v2/History.svelte';
+	import Footer from '@components/v2/Footer.svelte';
+	import Coaching from '@components/v2/Coaching.svelte';
+	import Guide from '@components/v2/Guide.svelte';
+	import Philosophy from '@components/v2/Philosophy.svelte';
+	import Hero from '@components/v2/Hero.svelte';
+	import Mentorship from '@components/v2/Mentorship.svelte';
+	import Cta from '@components/v2/Cta.svelte';
 </script>
 
-<svelte:head>
-	<script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
-</svelte:head>
-
-<section class="container mx-auto py-20 flex justify-center">{@html FormData}</section>
+<Hero />
+<Philosophy />
+<History />
+<Guide />
+<Coaching />
+<Mentorship />
+<Cta />
+<Footer />

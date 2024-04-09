@@ -9,7 +9,7 @@
 		<div class="mobile-media-layout">
 			<img src={mobileDevice} alt="computer device">
 		</div>
-		<h1>Crafting Digital Experiences</h1>
+		<h1>Web Design & Development</h1>
 		<p>Front-end development with a personal touch.</p>
 		<div class="btn-group flex-col md:flex-row">
 			<Button width="fill" size="medium" href="#work">View My Work</Button>

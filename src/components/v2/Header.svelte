@@ -10,10 +10,10 @@
 		</a>
     <nav class="nav">
       <a href="/">Home</a>
-      <a href="/coaching#philosophy">Profile</a>
-      <a href="/coaching#plans">Coaching</a>
+      <a href="#philosophy">Profile</a>
+      <a href="#plans">Coaching</a>
     </nav>
-    <Button variant="secondary" href="/coaching#plans">Book Your Session</Button>
+    <Button variant="secondary" href="#plans">Book Your Session</Button>
 	</div>
 </header>
 
